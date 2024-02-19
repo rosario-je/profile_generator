@@ -19,6 +19,8 @@ rl.question('What is your name? ', (answer1) => {
               console.log(`My favorite thing to eat for that meal is ${answer5}`)
               console.log(`My absolute favorite sport is ${answer6}`)
               console.log(`I am amazing at ${answer7}`)
+
+              rl.close();
             });
           });
         });
